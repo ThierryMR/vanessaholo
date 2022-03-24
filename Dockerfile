@@ -8,4 +8,4 @@ COPY raw_data /raw_data
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-CMD panel serve Holoviews.ipynb --port $PORT
+CMD panel serve Holoviews.ipynb --port 8080
